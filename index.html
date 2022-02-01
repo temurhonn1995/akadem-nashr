@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <div class="wrapper">
-      <header class="site-header">
+    <header class="site-header">
+      <div class="wrapper">
         <div class="logo">
           <img
             src="images/logo/logo.svg"
@@ -27,15 +27,15 @@
             <a class="main-button" href="#">Ro'yhatdan o'tish</a>
           </ul>
         </nav>
-      </header>
-    </div>
+      </div>
+    </header>
     <main>
       <section class="hero">
         <div class="wrapper">
-          <div class="hero-line"></div>
           <div class="hero-content">
-            <h2>Pythonda dasturlashasoslari</h2>
-            <p>
+            <div class="hero-line"></div>
+            <h2 class="hero-heading">Pythonda dasturlash asoslari</h2>
+            <p class="hero-text">
               Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal
               qo‘llanma. Kitobning har bir bo‘limi uchun maxsus video darslar
               yozilgan bo‘lib, ularga kitobda ko‘rsatilgan QR kod orqali o‘tish
@@ -54,18 +54,12 @@
           </div>
         </div>
       </section>
-
       <section class="features">
         <div class="wrapper">
-          <h2>Nega aynan Akademnashr?</h2>
+          <h2 class="feature-heading">Nega aynan Akademnashr?</h2>
           <div class="features-list">
             <div class="features-item">
-              <img
-                src="images/ikon/Icon.svg"
-                width="100"
-                height="100"
-                alt="icon-pointer"
-              />
+              <img src="images/ikon/Icon.svg" alt="icon-pointer" />
               <h3>Oson buyurtma qilish</h3>
               <p>
                 Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda
@@ -73,47 +67,37 @@
               </p>
             </div>
             <div class="features-item">
-              <img
-                src="images/ikon/Icon-1.svg"
-                width="100"
-                height="100"
-                alt="icon-star"
-              />
+              <img src="images/ikon/Icon-1.svg" alt="icon-star" />
               <h3>Eng sara kitoblar</h3>
               <p>
                 O’zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro
                 buyurtmalarni 10 ish kuni ichida yetkazib beriladi.
               </p>
             </div>
-          </div>
-          <div class="features-item">
-            <img
-              src="images/ikon/Icon-2.svg"
-              width="100"
-              height="100"
-              alt="icon-star"
-            />
-            <h3>Tez yetkazib berish</h3>
-            <p>
-              O’zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro
-              buyurtmalarni 10 ish kuni ichida yetkazib beriladi.
-            </p>
+            <div class="features-item">
+              <img src="images/ikon/Icon-2.svg" alt="icon-star" />
+              <h3>Tez yetkazib berish</h3>
+              <p>
+                O’zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro
+                buyurtmalarni 10 ish kuni ichida yetkazib beriladi.
+              </p>
+            </div>
           </div>
         </div>
       </section>
       <section class="sale">
-        <div class="wrapper">
+        <div class="wrapper sale-wrapper">
           <div class="sale-content">
-            <h2>Bolalar kitoblari uchun ajoyib aksiya!</h2>
-            <p>
+            <h2 class="sale-heading">Bolalar kitoblari uchun ajoyib aksiya!</h2>
+            <p class="sale-text">
               Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun
               turli mashq qo’llanmalari va komikslar.
             </p>
-            <p>
+            <p class="sale-text">
               Aksiyadagi eng katta to’plamda 50 ta kitobni 350 ming so’mga
               (aslida 383 ming so’m) sotib olishingiz mumkin.
             </p>
-            <a href="#">Buyurtma berish</a>
+            <a class="main-button" href="#">Buyurtma berish</a>
           </div>
           <div class="sale-img">
             <img
